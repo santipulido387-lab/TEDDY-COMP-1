@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: #19144a;
+    font-family:Arial, Helvetica, sans-serif;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario{
+    background-color: rgba(54, 6, 6, 0.5);
+    border: 2px solid rgb(#19144a);
+    width: 90%;
+    max-width: 450px;
+    padding: 30px 40px;
+    border-radius: 10px;
+    color: #fff;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.formulario h1{
+    text-align: center;
+    margin-bottom: 35px;
+}
+.registro{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.input-box{
+    border: 2px solid rgba(168, 0, 0, 1);
+    display: flex;
+    align-items: center;
+    height: 90px;
+    border-radius: 40px;
+    padding: 30px;
+}
+.input-box input{
+    flex: 20;
+    background-color: transparent;
+    border: 5;
+    border-radius: 10px;
+    border-color: aqua;
+    outline: 0;
+    font-size: 19px;
+    color: #fff;
+}
+.remember-password{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+    font-size: 14.5px;
+}
+.remember-password label{
+    display: flex;
+    align-items: center;
+}
+.remember-password input{
+    margin-right: 5px;
+}
+.Iniciar{
+    color: aqua;
+    background-color: #4d0179;
+    border-radius: 30px;
+    border: 0;
+    outline: 0;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 10px;
+}
+.Iniciar:hover{
+    background: #7701bb;
+}
